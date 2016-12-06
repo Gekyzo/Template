@@ -1,2 +1,2 @@
-# template
-Plantilla para mis proyectos personales
+# Plantilla
+Plantilla con los archivos básicos para mis proyectos personales.
