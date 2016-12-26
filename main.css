@@ -1,0 +1,14 @@
+/* CLEARFIX HACK: HTTP://nicolasgallagher.com/micro-clearfix-hack/ */
+.bc:before, .bc:after { content: " "; display: table;}
+.bc:after { clear: both;}
+.bc { *zoom: 1;}
+
+/* CSS Reset */
+* { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+html { overflow-y: scroll; }
+body { cursor: default; }
+ul { padding: 0; list-style-type: none; }
+
+/* General */
+.left { float: left; }
+.right { float: right; }
