@@ -1,7 +1,1 @@
-/* CSS Reset */
-* { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
-html, body, .wrapper { height: 100%;}
-html { overflow-y: scroll; }
-body { cursor: default; }
-ul { padding: 0; list-style-type: none; }
-img { max-width: 100%;}
+@charset "UTF-8";@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i';body,h1,h2,p,ul{margin:0}input,ul{padding:0}.wrapper,body,html{height:100%}html{overflow-y:scroll}body{cursor:default}ul{list-style-type:none}img,video{vertical-align:middle}img{max-width:100%}video{width:100%}table{width:100%}td,th{padding:0;margin:auto}input,select{font-size:inherit}button{border:0}.cke{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%}select{border-width:1px;border-style:solid}html{-webkit-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}.row{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.col{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}body{font-family:"Open Sans";font-size:1rem}

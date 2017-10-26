@@ -1,0 +1,42 @@
+/* Hoja de estilos organizada según el sistema ITCSS */
+
+// 1. [ SETTINGS ]
+// Variables SASS que vamos a utilizar en las demás capas CSS
+@import 'settings/breakpoints.scss';
+@import 'settings/colors.scss';
+@import 'settings/dimensions.scss';
+@import 'settings/fonts.scss';
+@import 'settings/transitions.scss';
+
+// 2. [ TOOLS ]
+// Mixins que utilizamos en las demás capas CSS
+@import 'tools/breakpoints.scss';
+
+// 3. [ GENERIC ]
+// Modelo de caja, clases globales, reset CSS...
+@import 'generic/reset.scss'; // En primera posición porque es el RESET
+@import 'generic/box-sizing.scss';
+@import 'generic/general.scss';
+
+// 4. [ ELEMENTS ]
+// Selectores HTML básicos
+@import 'elements/aside.scss';
+@import 'elements/body.scss';
+@import 'elements/form.scss';
+@import 'elements/header.scss';
+@import 'elements/main.scss';
+
+// 5. [ OBJECTS ]
+// Agrupación de componentes que resultan en un objetoa
+
+
+// 6. [ COMPONENTS ]
+// Piezas que componen un objeto
+
+
+// 7. [ UTILITIES ]
+// Herramientas externas que utilizans u propia hoja de estilos
+
+
+// 8. [ TRUMPS ]
+// !important, selectores que deben triunfar siempre

@@ -1,0 +1,49 @@
+// [ RESET ]
+
+body, h1, h2, p, ul { margin: 0; }
+input, ul { padding: 0; }
+html, body, .wrapper { height: 100%; }
+html { overflow-y: scroll; }
+body { cursor: default; }
+
+
+// Lists
+ul { list-style-type: none; }
+
+
+// Multimedia
+img, video {
+  vertical-align: middle; // Sin esta propiedad, las imágenes dentro de un Enlace crean un margin debajo
+}
+img {
+  max-width: 100%;
+}
+video {
+  width: 100%;
+}
+
+
+// Tables
+table {
+  width: 100%; // Por defecto coge la anchura de sus elementos. Así coge la altura de su contenedor parental
+}
+th, td {
+  padding: 0; // Firefox añade 1px de padding
+  margin: auto; // Alinea vertical y horizontal
+}
+
+
+// Forms
+input, select {
+  font-size: inherit; // Así los placeholder heredan el tamaño de letra
+}
+button {
+  border: 0;
+}
+.cke {
+  flex-basis: 100%; // Hacer que CKEditor mida toda la anchura del elemento padre
+}
+select {
+  border-width: 1px;
+  border-style: solid;
+}
