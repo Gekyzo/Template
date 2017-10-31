@@ -4,29 +4,29 @@
 
 // 1. [ SETTINGS ]
 // Variables SASS que vamos a utilizar en las demás capas CSS
-@import 'settings/breakpoints.scss';
-@import 'settings/colors.scss';
-@import 'settings/dimensions.scss';
-@import 'settings/fonts.scss';
-@import 'settings/transitions.scss';
+@import 'settings/breakpoints';
+@import 'settings/colors';
+@import 'settings/dimensions';
+@import 'settings/fonts';
+@import 'settings/transitions';
 
 // 2. [ TOOLS ]
 // Mixins que utilizamos en las demás capas CSS
-@import 'tools/breakpoints.scss';
+@import 'tools/breakpoints';
 
 // 3. [ GENERIC ]
 // Modelo de caja, clases globales, reset CSS...
-@import 'generic/reset.scss'; // En primera posición porque es el RESET
-@import 'generic/box-sizing.scss';
-@import 'generic/general.scss';
+@import 'generic/reset'; // En primera posición porque es el RESET
+@import 'generic/box-sizing';
+@import 'generic/general';
 
 // 4. [ ELEMENTS ]
 // Selectores HTML básicos
-@import 'elements/aside.scss';
-@import 'elements/body.scss';
-@import 'elements/form.scss';
-@import 'elements/header.scss';
-@import 'elements/main.scss';
+@import 'elements/aside';
+@import 'elements/body';
+@import 'elements/form';
+@import 'elements/header';
+@import 'elements/main';
 
 // 5. [ OBJECTS ]
 // Agrupación de componentes que resultan en un objetoa
