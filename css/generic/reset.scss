@@ -47,3 +47,6 @@ select {
   border-width: 1px;
   border-style: solid;
 }
+textarea {
+  font-family: inherit; // Firefox: por defecto no aplica font-family
+}
