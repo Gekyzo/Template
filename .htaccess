@@ -1,20 +1,7 @@
-RewriteEngine On
-
-
-### REDIRECCIÓN WWW A NO-WWW
-
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
-
-
-### PÁGINAS ESPECIALES
-
-# Sitemap
-RewriteRule ^sitemap.xml sitemap.php [L]
-
-# Pagina 404
-ErrorDocument 404 /404.php
+Options -MultiViews
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [QSA,L]
 
 
 ##########

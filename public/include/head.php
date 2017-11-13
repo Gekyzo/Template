@@ -17,9 +17,3 @@
 	<meta property="og:title" content="">
 	<meta property="og:url" content="">
 	<link rel="canonical" href="">
-	<title></title>
-
-<?php
-	define ("root", $_SERVER['DOCUMENT_ROOT']);
-	include root . "/php/connect.php";
-?>
