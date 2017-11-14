@@ -7,6 +7,12 @@ html { overflow-y: scroll; }
 body { cursor: default; }
 
 
+// Links
+a, a:visited {
+  color: inherit;
+}
+
+
 // Lists
 ul { list-style-type: none; }
 
