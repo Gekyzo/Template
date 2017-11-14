@@ -40,16 +40,11 @@ th, td {
 
 
 // Forms
-input, select {
-  font-size: inherit; // Así los placeholder heredan el tamaño de letra
-}
-button {
-  border: 0;
-}
 .cke {
   flex-basis: 100%; // Hacer que CKEditor mida toda la anchura del elemento padre
 }
-select {
+input, select, button {
+  font-size: inherit; // Así los placeholder heredan el tamaño de letra
   border-width: 1px;
   border-style: solid;
 }
